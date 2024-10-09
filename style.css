@@ -6,16 +6,16 @@ body {
     padding: 0;
 }
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
 header {
     background-color: #dda15e;
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 .nav-buttons {
     margin: 20px 0;
@@ -33,6 +33,8 @@ header {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
+    width: 100%;
+    max-width: 600px;
 }
 .content.active {
     display: block;
