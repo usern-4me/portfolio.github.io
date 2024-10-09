@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /licence/
+Disallow: /admin/
+Disallow: /log/
